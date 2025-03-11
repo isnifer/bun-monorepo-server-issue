@@ -10,9 +10,6 @@
     },
     "client": {
       "name": "client",
-      "dependencies": {
-        "server": "workspace:*",
-      },
     },
     "server": {
       "name": "server",

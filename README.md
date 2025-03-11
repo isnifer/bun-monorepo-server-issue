@@ -52,3 +52,20 @@ client dev $ bun run --hot index.ts
 ### Conclusion
 
 So, looks like a folder called `server` breaks something in Bun.
+
+### Important Notice
+
+If I remove `"dependencies"` section in `client` I still can use `server` as a dependency.
+Bun doesn't hang in this case, but it looks strange to import something from workspace and doesn't rely on it in `package.json.
+
+```sh
+❯ bun --filter "*" dev
+server dev $ bun run --hot index.ts
+│ Hello via Bun!
+└─ Running...
+client dev $ bun run --hot index.ts
+│ Hello via Bun!
+│ Hello from Client!
+│ Hello from Server!
+└─ Running...
+```
