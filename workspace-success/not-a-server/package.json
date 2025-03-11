@@ -6,9 +6,5 @@
   "private": true,
   "scripts": {
     "dev": "bun run --hot index.ts"
-  },
-  "devDependencies": {
-    "@types/bun": "1.2.5",
-    "typescript": "5.8.2"
   }
 }

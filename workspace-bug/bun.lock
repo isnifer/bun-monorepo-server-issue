@@ -13,18 +13,10 @@
       "dependencies": {
         "server": "workspace:*",
       },
-      "devDependencies": {
-        "@types/bun": "1.2.5",
-        "typescript": "5.8.2",
-      },
     },
     "server": {
       "name": "server",
       "version": "1.0.0",
-      "devDependencies": {
-        "@types/bun": "1.2.5",
-        "typescript": "5.8.2",
-      },
     },
   },
   "packages": {
