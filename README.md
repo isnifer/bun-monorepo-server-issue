@@ -48,3 +48,7 @@ server dev $ bun run --hot index.ts
 client dev $ bun run --hot index.ts
 └─ Waiting for 1 other script(s)
 ```
+
+### Conclusion
+
+So, looks like a folder called `server` breaks something in Bun.
